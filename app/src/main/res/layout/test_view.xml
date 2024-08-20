@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_staff_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="6dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:textColor="@color/grey_k"
+            android:background="@drawable/button_bg"
+            android:text="Staff"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_rude_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="6dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:textColor="@color/grey_k"
+
+            android:background="@drawable/button_bg"
+            android:text="Rude Attitude" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_points_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="6dp"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:textColor="@color/grey_k"
+
+            android:background="@drawable/button_bg"
+            android:text="Points" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_points_2"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="6dp"
+            android:layout_marginEnd="8dp"
+            android:textAllCaps="false"
+            android:textColor="@color/grey_k"
+
+            android:background="@drawable/button_bg"
+            android:text="Points" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_rude_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="6dp"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:textColor="@color/grey_k"
+            android:text="Rude Attitude"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_marginTop="24dp"
+        android:hint="Write a review..."
+
+        android:id="@+id/review_input">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/review_input_edit_text"
+            android:gravity="top|start"
+            android:padding="12dp"
+            android:textSize="13sp"
+            android:textColor="@color/grey_1"
+            android:fontFamily="@font/poppins"
+            android:background="@color/grey_6"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/submit_button"
+        android:fontFamily="@font/poppins"
+        android:textSize="17sp"
+        android:layout_marginTop="32.5dp"
+        android:textColor="@color/white"
+        android:text="Submit"
+        android:textAllCaps="false" />
+
+</LinearLayout>
